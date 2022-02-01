@@ -1,0 +1,104 @@
+/* ---------------aboutme-------------- */
+.aboutMe {
+    background-color: #fff;
+}
+
+.aboutMe h4 {
+    margin-top: 50px;
+}
+
+.aboutMe .skills-bar p {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------resume-------------- */
+.resume h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.resume .timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+.resume .timeline:before {
+    content: '';
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+
+.resume .timeline li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.resume .timeline li h4 {
+    /* background-color: #000; */
+    padding: 5px 0 5px 20px;
+    column-rule-color: #fff;
+    font-size: 15px;
+    color: #fff;
+}
+
+.resume .timeline li span {
+    font-weight: bold;
+    color: #ccc;
+}
+
+.resume .timeline li:before {
+    content: '';
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid white;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+
+/* ---------------portfolio-------------- */
+.portfolio .row {
+    margin-top: 100px;
+}
+
+
+/* ---------------contact-------------- */
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/contact/3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.contact .row {
+    padding: 30px;
+    font-size: 22px;
+}
+
+.contact #icon {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
